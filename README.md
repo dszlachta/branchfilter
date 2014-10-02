@@ -15,16 +15,20 @@ Example output
 --------------
 
 Single match:
-``` branchf best
-the_best_feature [Y/n]```
+``` 
+branchf best
+the_best_feature [Y/n]
+```
 
 Multiple matches:
-``` branchf bug
+```
+branchf bug
 1: stupid_bug_fixed
 2: no_more_bugs
 3: I_hate_bugs
 
-Which one? _```
+Which one? _
+```
 
 Installation
 ------------
