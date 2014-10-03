@@ -13,7 +13,7 @@ IFS=$' ' readarray -t BRANCHES <<< `git branch | grep -i "$PART"`
 if [ ${#BRANCHES[0]} -eq 0 ]; then
     echo "No results"
     unset IFS
-    return 0
+    exit 0
 fi
 
 if [ ${#BRANCHES[@]} -gt 1 ]; then
